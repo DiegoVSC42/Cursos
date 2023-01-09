@@ -1,0 +1,17 @@
+
+public class Operadores {
+	
+	public static void main(String[] args) {
+		
+		// 	soma 			(+)
+		// 	subtracao		(-)
+		// 	multiplicacao	(*)
+		//	divisao			(/)
+		
+		int idade = 20;
+		double salario = 800.50;
+		salario = salario + 400;
+		System.out.println("Meu salario: R$ "+ salario);
+	}	
+	
+}

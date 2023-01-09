@@ -1,0 +1,15 @@
+
+public class OperadoresRelacionais {
+	//	> 	maior que
+	//	<	menor que
+	//	>=	maior ou igual
+	// 	<= 	menor ou igual
+	//	==	igual
+	//	!=	diferente
+	
+	public static void main(String[] args) {
+		boolean jaChoveuHoje = false;
+		System.out.println("Ja choveu hoje: " + jaChoveuHoje);
+	}
+	
+}

@@ -1,0 +1,7 @@
+
+public class Testenome {
+	public static void main(String args[]) {
+		int idade = 20ç
+		System.out.println(idade);
+	}
+}

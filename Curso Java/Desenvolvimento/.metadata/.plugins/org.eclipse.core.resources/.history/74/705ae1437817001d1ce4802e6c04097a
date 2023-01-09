@@ -1,0 +1,7 @@
+
+public class Curso {
+	
+		public static void main() {
+			System.out.println("Ola Mundo!");
+		}
+}

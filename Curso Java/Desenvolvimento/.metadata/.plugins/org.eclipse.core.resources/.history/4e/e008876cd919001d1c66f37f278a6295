@@ -1,0 +1,13 @@
+
+public class CadastroCliente {
+	public static void main(String[] args) {
+		
+		Cliente cliente = new CLiente();
+		cliente.nome = "Diego";
+		cliente.cpf = "70904245101";
+		cliente.idade = 21;
+		cliente.numeroAgencia = 19;
+		
+		
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Char {
+	public static void main(String[] args) {
+		/*
+		Scanner sc = new Scanner(System.in);
+		String nome[] = sc.nextLine();*/
+		char nome[] = {'D','V','S'};
+		for(int i = nome.length; i > 0 ;i-- ) {
+			for(int j = 0; j < nome.length ; j++) {
+				char aux[];
+				aux[j] = nome[i];
+			}
+		}
+		System.out.println("Nome: " + nome[]);
+		System.out.println("Nome invertido:" + aux[]);
+	}
+}

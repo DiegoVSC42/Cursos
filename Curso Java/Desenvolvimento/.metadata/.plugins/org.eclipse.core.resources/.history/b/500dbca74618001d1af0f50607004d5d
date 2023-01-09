@@ -1,0 +1,21 @@
+
+public class OperadoresRelacionais {
+	//	> 	maior que
+	//	<	menor que
+	//	>=	maior ou igual
+	// 	<= 	menor ou igual
+	//	==	igual
+	//	!=	diferente
+	
+
+	public static void main(String[] args) {
+		int idadeVinicius	= 	20;
+		int idadeDiego		=	25;
+		boolean testeIdade	= idadeVinicius < idadeDiego;
+		System.out.println(testeIdade);
+		
+		boolean jaChoveuHoje = false;
+		System.out.println("Ja choveu hoje: " + jaChoveuHoje);
+	}
+	
+}

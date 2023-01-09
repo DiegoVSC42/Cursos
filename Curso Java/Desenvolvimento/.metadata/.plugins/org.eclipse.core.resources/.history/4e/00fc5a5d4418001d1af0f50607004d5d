@@ -1,0 +1,8 @@
+
+public class OperadoresRelacionais {
+	public static void main(String[] args) {
+		boolean jaChoveuHoje = false;
+		System.out.println(jaChoveuHoje);
+	}
+	
+}

@@ -1,0 +1,23 @@
+
+public class EstruturaRepeticaoCondicional {
+	public static void main(String[] args) {
+		
+		int i = 0;
+		int numeroMaximo = 10;
+		while(i <= numeroMaximo){
+			System.out.print(" " + i);
+			i = i + 2;
+		}
+		System.out.println();
+		System.out.println("-------");
+		System.out.println("-------");
+		System.out.println("-------");
+		
+		do {
+			System.out.print(" " + i);
+			i = i + 2;
+			
+		}while(i <= numeroMaximo);
+		
+	}
+}

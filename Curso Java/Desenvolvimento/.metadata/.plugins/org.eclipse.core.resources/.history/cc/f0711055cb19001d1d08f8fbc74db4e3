@@ -1,0 +1,8 @@
+
+public class Char {
+	public static void main(String[] args) {
+		char letra = 'A';
+		char nome[] = {'D','i','e','g','o'};
+		System.out.println(nome.length);
+	}
+}

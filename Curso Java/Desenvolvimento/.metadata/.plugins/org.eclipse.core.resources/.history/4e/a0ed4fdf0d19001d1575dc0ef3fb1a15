@@ -1,0 +1,26 @@
+
+public class EstruturaCondicional {
+	public static void main(String[] args) {
+		boolean jaChoveuHoje = false;
+		boolean jaTomouBanhoHoje = false;
+		boolean jaTomouAguaHoje = false;
+		
+		if(jaChoveuHoje) {
+			System.out.println("Ebaaa ja choveu !!");
+		}else if(jaTomouBanhoHoje) {
+			System.out.println("Hmmm To de banho tomado");
+		}else if(jaTomouAguaHoje){
+			System.out.println("O pai ta hidratado");
+		}else{
+			System.out.println("Aff nao choveu");
+		}
+		
+		jaChoveuHoje = true;
+		jaTomouAguaHoje = false;
+		if(jaTomouAguaHoje || jaChoveuHoje) {
+			System.out.println("Preciso tomar mais agua de chuva");
+		}
+		System.out.println("Mas as flores estao lindas");
+		System.out.println("E o dia ta otimo");
+	}
+}

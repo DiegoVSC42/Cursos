@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class TipoTriangulo {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int contador = 0;
+		
+		System.out.println("Digite o lado 1: ");
+		int lado1 = sc.nextInt();
+		System.out.println("Digite o lado 2: ");
+		int lado2 = sc.nextInt();
+		System.out.println("Digite o lado 3: ");
+		int lado3 = sc.nextInt();
+		
+		boolean cmp1 = lado1 == lado2;
+		System.out.println(cmp1);
+		boolean cmp2 = lado1 == lado3;
+		System.out.println(cmp2);
+		boolean cmp3 = lado2 == lado3;
+		System.out.println(cmp3);
+		int aux1 = cmp1 ? 1 : 0;
+		System.out.println(aux1);
+		switch (cmp1){ 
+		case true:
+			contador++;
+			break;
+		}
+		switch (cmp2){ 
+		case true:
+			contador++;
+			break;
+		}
+		switch (cmp3){ 
+		case true:
+			contador++;
+			break;
+		}
+		
+		switch (contador){ 
+		case 1:
+			System.out.println("Escaleno");
+			break;
+		case 2:
+			System.out.println("Isosceles");
+			break;
+		case 3:
+			System.out.println("Equilatero");
+			break;
+		}
+		
+	}	
+
+}
