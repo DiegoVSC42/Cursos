@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+font-family: Inter;
+background-color: #b0aeeb;
+}
+
+.container__imagem {
+  width: 200px;
+}
+
+.container__titulo {
+  color: #6562c4;
+}
+
+.container__botao {
+  display: inline-block;
+  background-color: #8c8ad4;
+  color: white;
+  padding: 1em;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.container {
+  width: 20%;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
