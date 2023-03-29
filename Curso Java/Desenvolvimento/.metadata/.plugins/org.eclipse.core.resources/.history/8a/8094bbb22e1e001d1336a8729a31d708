@@ -1,0 +1,21 @@
+package Geometria;
+
+public class Quadrado implements FiguraGeometrica{
+	
+	double comprimento;
+	double largura;
+	@Override
+	public double area() {
+		double valorArea = comprimento*largura;
+		return valorArea;
+	}
+
+	@Override
+	public double perimetro() {
+		double valorPerimetro = (2 * comprimento) + (2 * largura);
+		return 0;
+	}
+	
+	
+
+}

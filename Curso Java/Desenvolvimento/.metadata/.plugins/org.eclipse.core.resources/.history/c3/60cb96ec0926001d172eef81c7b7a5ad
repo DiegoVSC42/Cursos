@@ -1,0 +1,7 @@
+package br.com.cursoJava.aulaFinal.def;
+
+public class Funcionario {
+	String nome;
+	String cpf;
+	double salario;
+}

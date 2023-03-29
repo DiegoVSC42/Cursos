@@ -1,0 +1,8 @@
+package br.com.cursoJava.aulaFinal.teste;
+
+public class TestePolimorfismo {
+	public static void main(String[] args) {
+		Pessoa Vinicius = new Funcionario("Vinicius", "1234", 123);
+		
+	}
+}

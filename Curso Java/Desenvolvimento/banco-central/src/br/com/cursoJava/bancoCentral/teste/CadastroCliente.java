@@ -1,0 +1,12 @@
+package br.com.cursoJava.bancoCentral.teste;
+import br.com.cursoJava.bancoCentral.modelo.Cliente;
+
+public class CadastroCliente {
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente("Vinicius","43231231",18,800);
+		
+		System.out.println(cliente.getNome());
+		
+	}
+}

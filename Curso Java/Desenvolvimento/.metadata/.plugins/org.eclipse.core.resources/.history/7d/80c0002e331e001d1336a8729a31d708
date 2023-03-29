@@ -1,0 +1,11 @@
+package Geometria;
+
+public class CriaForma {
+	public static void main(String[] args) {
+
+		Quadrado retangulo = new Quadrado();
+		
+		double valor = retangulo.getLargura();
+		System.out.println(valor);
+	}
+}

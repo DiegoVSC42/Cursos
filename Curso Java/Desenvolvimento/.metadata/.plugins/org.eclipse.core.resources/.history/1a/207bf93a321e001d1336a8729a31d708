@@ -1,0 +1,51 @@
+package Geometria;
+
+public class Triangulo implements FiguraGeometrica {
+	private double ladoA, ladoB, ladoC;
+	private double base, altura;
+	
+	public double getLadoA() {
+		return ladoA;
+	}
+	public void setLadoA(double ladoA) {
+		this.ladoA = ladoA;
+	}
+	public double getLadoB() {
+		return ladoB;
+	}
+	public void setLadoB(double ladoB) {
+		this.ladoB = ladoB;
+	}
+	public double getLadoC() {
+		return ladoC;
+	}
+	public void setLadoC(double ladoC) {
+		this.ladoC = ladoC;
+	}
+	public double getBase() {
+		return base;
+	}
+	public void setBase(double base) {
+		this.base = base;
+	}
+	public double getAltura() {
+		return altura;
+	}
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	@Override
+	public double area(double base, double altura) {
+		// TODO Auto-generated method stub
+		double valorArea = (base*altura)/2;
+		return valorArea;
+	}
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+}

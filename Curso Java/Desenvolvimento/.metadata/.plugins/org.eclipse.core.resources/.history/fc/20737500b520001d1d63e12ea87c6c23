@@ -1,0 +1,11 @@
+
+public class TesteString {
+	public static void main(String[] args) {
+		
+		String nome = "Vinicius";
+		nome = nome.replace("V", "v");
+		System.out.println(nome);
+	
+		
+	}
+}

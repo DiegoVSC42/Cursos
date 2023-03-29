@@ -1,0 +1,18 @@
+package Geometria;
+
+public class Circulo implements FiguraGeometrica{
+	
+	double raio;
+	@Override
+	public double area() {
+		double valorArea = Math.PI * (raio*raio);
+		return valorArea;
+	}
+
+	@Override
+	public double perimetro() {
+		double valorPerimetro = 2*Math.PI*raio;
+		return valorPerimetro;
+	}
+
+}

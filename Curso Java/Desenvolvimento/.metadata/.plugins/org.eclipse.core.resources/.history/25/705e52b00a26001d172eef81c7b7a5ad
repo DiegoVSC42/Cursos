@@ -1,0 +1,12 @@
+package br.com.cursoJava.aulaFinal.modelo;
+
+public class Funcionario {
+	
+	private String nome;
+	private String cpf;
+	private double salario;
+	
+	public Funcionario(String nomeParametro, String cpfParametro, double salario) {
+		nome = nomeParametro
+	}
+}

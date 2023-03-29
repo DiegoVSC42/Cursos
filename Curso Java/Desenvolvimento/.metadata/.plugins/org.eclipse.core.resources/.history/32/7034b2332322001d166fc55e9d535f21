@@ -1,0 +1,83 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class ArrayNumeros {
+	public static void main(String args[]){
+		
+		int comando;
+		int cont_indice = 0;
+		int valor;
+		int vetor[] = new int[10];
+		
+		ArrayNumeros objeto = new ArrayNumeros();
+		
+		Scanner sc = new Scanner(System.in);
+
+		while (comando != 0) {
+			
+			System.out.println("Digite o valor referente ao comando desejado:");
+			System.out.println("1 - Inserir valor digitado no final do vetor ");
+			System.out.println("2 - Remover valor digitado referente ao indice do vetor");
+			System.out.println("3 - Mostrar vetor");
+			System.out.println("4 - Receber valor referente ao indice do vetor");
+			System.out.println("0 - Sair");
+			comando = sc.nextInt();
+			switch (comando) {
+				case 1:
+					System.out.println("Digite o valor que será inserido: ");
+					valor = sc.nextInt();
+					objeto.adicionarNumero(vetor, valor, cont_indice);
+					cont_indice++;
+					break;
+				case 2:
+					System.out.println("Digite o valor referente ao indice que será removido");
+					valor = sc.nextInt();
+					objeto.removerNumero(valor, vetor, cont_indice);
+					cont_indice--;
+					break;
+				case 3:
+					objeto.mostrar(vetor);
+					break;
+				case 4:
+					System.out.println("Digite o valor referente ao indice que deseja saber o valor");
+					valor = sc.nextInt();
+					objeto.receber(vetor, valor);
+					break;
+				case 0:
+					System.out.println("Valor inserido inváido");
+					break;
+				default:
+					System.out.println("Valor Inválido");
+					break;
+			}
+		}
+	}
+	
+	public void adicionarNumero(int vetor[],int numero, int cont_indice){
+		vetor[cont_indice] = numero;
+	}
+	public void removerNumero(int indice, int vetor[], int cont_indice) {
+		int aux;
+		for(int i = 0 ; i < vetor.length ; i++ ) {
+			if(i == indice){
+				for(int j = i; j < vetor.length -1 ; j++) {
+					aux = vetor[j+1];
+					vetor[j] = aux;
+				}
+			}
+		}
+	}
+	public void mostrar(int vetor[]){
+		System.out.println("Vetor: ");
+		for(int i = 0 ; i < vetor.length ; i++) {
+			System.out.print("[" + vetor[i] + "]");
+		}
+		System.out.println();
+	}	
+	public void receber(int vetor[],int indice) {
+		System.out.println("Valor no indice " + indice +" = " + vetor[indice]);
+	}
+}
+
+

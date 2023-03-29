@@ -1,0 +1,21 @@
+package br.com.cursoJava.aulaFinal.teste;
+
+import br.com.cursoJava.aulaFinal.modelo.Funcionario;
+
+public class TesteFuncionario {
+	public static void main(String[] args) {
+		
+		Funcionario vinicius = new Funcionario("Vinicius","123456789012",800);
+		System.out.println(vinicius.getNome());
+		System.out.println(vinicius.getCpf());
+		System.out.println(vinicius.getSalario());
+		vinicius.gastarQuantidade(900);
+		System.out.println(vinicius.getSalario());
+		vinicius.gastarQuantidade(500);
+		System.out.println(vinicius.getSalario());
+		vinicius.receberSalarioMes();
+		System.out.println(vinicius.getSalario());
+		vinicius.setNome("Vini");
+		System.out.println("Meu nome: " + vinicius.getNome());
+	}
+}

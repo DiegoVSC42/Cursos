@@ -1,0 +1,10 @@
+package br.com.cursoJava.aulaFinal.teste;
+
+public class EstruturasRepeticao {
+	public static void main(String[] args) {
+		int numero = 0;
+		for(int i = 0 ; i < 10 ; i++) 
+			numero +=1;
+		System.out.println(numero);
+	}
+}

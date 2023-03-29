@@ -1,0 +1,14 @@
+package br.com.cursoJava.aulaFinal.teste;
+
+import br.com.cursoJava.aulaFinal.modelo.Funcionario;
+import br.com.cursoJava.aulaFinal.modelo.Pessoa;
+
+public class TestePolimorfismo {
+	public static void main(String[] args) {
+		Funcionario vinicius = new Funcionario("Vinicius", "1234", 1000);
+		
+		Pessoa enzo = new Funcionario("Vinicius", "1234", 1000);
+		
+		System.out.println(vinicius.getSalario());
+	}
+}

@@ -1,0 +1,6 @@
+package Geometria;
+
+public class Triangulo {
+	private double ladoA, ladoB, ladoC;
+	private double base, altura;
+}

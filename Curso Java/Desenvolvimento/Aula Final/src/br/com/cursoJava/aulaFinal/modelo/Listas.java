@@ -1,0 +1,39 @@
+package br.com.cursoJava.aulaFinal.modelo;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import java.util.Collection;
+
+public class Listas {
+	public static void main(String[] args) {
+		int numeros[] = new int[10];
+		//numeros[11] = 10;
+		//Integer = int
+		//Double = double
+		//Float = float
+		//Character = char
+		//Byte = byte
+		
+		//arraylist guarda ordem
+		List<Integer> numerosLista = new ArrayList<>();
+		//numeros nao repetidos
+		Set<Integer> numerosNaoRepetidos = new HashSet<>();
+		
+		numerosNaoRepetidos.add(90);
+		numerosNaoRepetidos.add(30);
+		numerosNaoRepetidos.add(20);
+		numerosNaoRepetidos.add(20);
+		
+		numerosLista.add(90);
+		numerosLista.add(30);
+		numerosLista.add(20);
+		numerosLista.add(20);
+		
+		System.out.println(numerosLista.get(0));
+		System.out.println(numerosLista);
+		System.out.println(numerosNaoRepetidos);
+	}
+}

@@ -1,0 +1,18 @@
+package br.com.cursoJava.bancoCentral.teste;
+
+public class ArrayCliente {
+	
+	private Cliente clientes[];
+	public int QUANTIDADE_CLIENTES;
+	
+	public ArrayCliente(int quantidadeCliente) {
+		clientes = new Cliente[quantidadeCliente];
+	}
+	
+	public void adicionArray(int index, Cliente cliente) {
+		
+	}
+	public int quantidadeCLiente() {
+		return clietnes.length;
+	}
+}

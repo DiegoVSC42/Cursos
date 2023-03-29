@@ -1,0 +1,28 @@
+package Arrays;
+
+public class ArrayNumeros {
+	int vetor[] = new int[10];
+	int cont_indice = 0;
+	
+	public void adicionaNumero(int numero){
+		vetor[cont_indice] = numero;
+		cont_indice++;
+	}
+	public void remover(int indice) {
+		int aux;
+		for(int i = 0 ; i < vetor.length ; i++ ) {
+			if(vetor[i] == indice){
+				aux = vetor[i+1];
+				vetor[i] = aux;
+			}
+		}
+	}
+	public void mostrar(int indice) {
+		
+	}
+	public void receber(int indice) {
+		
+	}
+}
+
+

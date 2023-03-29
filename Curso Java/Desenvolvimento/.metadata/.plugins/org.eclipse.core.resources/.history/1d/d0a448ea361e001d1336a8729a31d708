@@ -1,0 +1,55 @@
+package Geometria;
+
+public class CriaForma {
+	public static void main(String[] args) {
+
+		Quadrado retangulo = new Quadrado();
+		Triangulo equilatero = new Triangulo();
+		Triangulo isosceles = new Triangulo();
+		Triangulo escaleno = new Triangulo();
+		Circulo circulo = new Circulo();
+		
+		retangulo.setComprimento(15);
+		retangulo.setLargura(10);
+		retangulo.setNome("Retangulo");
+		System.out.println("Nome: " + retangulo.getNome());
+		System.out.println("Area: " + retangulo.area());
+		System.out.println("Perimetro: " + retangulo.perimetro());
+		System.out.println("-----------------------------------");
+		
+		
+		
+		equilatero.setAltura(10);
+		equilatero.setBase(15);
+		equilatero.setLadoA(12.5);
+		equilatero.setLadoB(12.5);
+		equilatero.setLadoC(12.5);
+		equilatero.setNome("Equilatero");
+		System.out.println("Nome: " + equilatero.getNome());
+		System.out.println("Area: " + equilatero.area());
+		System.out.println("Perimetro: " + equilatero.perimetro());
+		System.out.println("-----------------------------------");
+		
+		
+		
+		isosceles.setAltura(10);
+		isosceles.setBase(15);
+		isosceles.setLadoA(12.5);
+		isosceles.setLadoB(12.5);
+		isosceles.setLadoC(10);
+		isosceles.setNome("Isosceles");
+		System.out.println("Nome: " + equilatero.getNome());
+		System.out.println("Area: " + equilatero.area());
+		System.out.println("Perimetro: " + equilatero.perimetro());
+		System.out.println("-----------------------------------");
+		
+		
+		
+		circulo.setRaio(3);
+		circulo.setNome("Circulo");
+		System.out.println("Nome: " + circulo.getNome());
+		System.out.println("Area: " + circulo.area());
+		System.out.println("Perimetro: " + circulo.perimetro());
+		System.out.println("-----------------------------------");
+	}
+}

@@ -1,0 +1,18 @@
+package Geometria;
+
+public class Circulo implements FiguraGeometrica{
+	
+	double = raio;
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

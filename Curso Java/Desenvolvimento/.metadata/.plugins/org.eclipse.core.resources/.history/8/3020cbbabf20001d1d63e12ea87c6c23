@@ -1,0 +1,29 @@
+package br.com.cursoJava.bancoCentral.modelo;
+
+public class Cliente {
+	public String nome;
+	String cpf;
+	int numeroAgencia;
+	int idade;
+	double saldo;
+	
+	public Cliente(String nome, String cpf, int idade, double saldo) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.idade = idade;
+		this.saldo = saldo; 
+	}
+	
+	public void depositar(double valor) {
+		this.saldo += valor;
+	}
+	
+	public boolean sacar(double valor) {
+		if(this.saldo - valor >= 0) {
+			this.saldo -= valor;
+			return true;
+		}else {
+			return false;
+		}
+	}
+}

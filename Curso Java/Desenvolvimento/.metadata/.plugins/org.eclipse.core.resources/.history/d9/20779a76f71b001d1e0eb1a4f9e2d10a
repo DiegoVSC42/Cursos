@@ -1,0 +1,8 @@
+package MundoAnimal;
+
+public class Cachorro extends Animais {
+	
+	int qtdPatas;
+	double tamanhoCauda;
+
+}

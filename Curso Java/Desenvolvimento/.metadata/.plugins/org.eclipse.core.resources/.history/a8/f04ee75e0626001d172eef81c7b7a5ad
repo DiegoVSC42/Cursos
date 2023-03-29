@@ -1,0 +1,21 @@
+package br.com.cursoJava.aulaFinal.teste;
+
+public class EstruturasCondicionais {
+	public static void main(String[] args) {
+		
+		boolean jaChoveuHoje = false;
+		
+		if(jaChoveuHoje)
+			System.out.println("Eba chuva muito boa");
+		else
+			System.out.println("Aff queria um banho de chuva");
+		int numero = 18;
+		
+		if (numero > 18)
+			System.out.println("Sou maior de dezoito, ja posso beber");
+		else if(numero == 18)
+			System.out.println("Opa dezoitei!!");
+		else
+			System.out.println("Aff ainda nao posso beber");
+	}
+}

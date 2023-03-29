@@ -1,0 +1,12 @@
+package Geometria;
+
+public class CriaForma {
+	public static void main(String[] args) {
+
+		Quadrado retangulo = new Quadrado();
+		
+		retangulo.setComprimento(15);
+		retangulo.setLargura(10);
+		System.out.println("Area: " + retangulo.area());
+	}
+}

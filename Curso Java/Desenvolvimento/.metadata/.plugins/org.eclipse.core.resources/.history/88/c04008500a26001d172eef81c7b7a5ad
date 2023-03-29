@@ -1,0 +1,9 @@
+package br.com.cursoJava.aulaFinal.teste;
+
+import br.com.cursoJava.aulaFinal.modelo.Funcionario;
+
+public class TesteFuncionario {
+	public static void main(String[] args) {
+		Funcionario vinicius = new Funcionario();
+	}
+}

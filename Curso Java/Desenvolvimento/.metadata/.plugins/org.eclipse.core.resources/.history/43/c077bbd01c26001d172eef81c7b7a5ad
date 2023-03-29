@@ -1,0 +1,20 @@
+package br.com.cursoJava.aulaFinal.modelo;
+
+import java.util.ArrayList;
+
+public class Listas {
+	public static void main(String[] args) {
+		int numeros[] = new int[10];
+		//numeros[11] = 10;
+		//Integer = int
+		//Double = double
+		//Float = float
+		//Character = char
+		//Byte = byte
+		ArrayList<Integer> numerosLista = new ArrayList<>();
+		numerosLista.add(90);
+		numerosLista.add(30);
+		numerosLista.add(20);
+		System.out.println(numerosLista);
+	}
+}

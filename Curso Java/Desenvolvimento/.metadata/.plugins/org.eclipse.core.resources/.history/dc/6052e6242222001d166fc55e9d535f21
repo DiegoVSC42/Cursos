@@ -1,0 +1,75 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class ArrayNumeros {
+	public static void main(String args[]) {
+		
+
+		ArrayNumeros objeto = new ArrayNumeros();
+		int vetor[] = new int[10];
+		int cont_indice = 0;
+		objeto.adicionarNumero(vetor, 42, cont_indice);
+		cont_indice++;
+		objeto.mostrar(vetor);
+		objeto.adicionarNumero(vetor, 69, cont_indice);
+		cont_indice++;
+		objeto.mostrar(vetor);
+		objeto.removerNumero(0, vetor, cont_indice);
+		cont_indice--;
+		objeto.mostrar(vetor);
+		objeto.receber(vetor, 0);
+	}
+	public void opcao() {
+		int comando;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o valor referente ao comando desejad:");
+		System.out.println("1 - Inserir valor digitado no final do vetor ");
+		System.out.println("2 - Remover valor digitado referente ao indice do vetor");
+		System.out.println("3 - Mostrar vetor");
+		System.out.println("4 - Receber valor referente ao indice do vetor");
+		System.out.println("0 - Sair");
+		comando = sc.nextInt();
+		while (comando != 0) {
+		switch (comando) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			default:
+				break;
+			}
+		}
+	}
+	
+	public void adicionarNumero(int vetor[],int numero, int cont_indice){
+		vetor[cont_indice] = numero;
+	}
+	public void removerNumero(int indice, int vetor[], int cont_indice) {
+		int aux;
+		for(int i = 0 ; i < vetor.length ; i++ ) {
+			if(i == indice){
+				for(int j = i; j < vetor.length -1 ; j++) {
+					aux = vetor[j+1];
+					vetor[j] = aux;
+				}
+			}
+		}
+	}
+	public void mostrar(int vetor[]){
+		System.out.println("Vetor: ");
+		for(int i = 0 ; i < vetor.length ; i++) {
+			System.out.print("[" + vetor[i] + "]");
+		}
+		System.out.println();
+	}	
+	public void receber(int vetor[],int indice) {
+		System.out.println("Valor no indice " + indice +" = " + vetor[indice]);
+	}
+}
+
+

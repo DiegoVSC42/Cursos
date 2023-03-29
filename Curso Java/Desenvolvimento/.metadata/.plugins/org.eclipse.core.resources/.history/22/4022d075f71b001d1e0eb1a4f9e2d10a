@@ -1,0 +1,9 @@
+package MundoAnimal;
+
+public class Passaro extends Animais {
+	
+	double tamanhoBico;
+	int qtdPés;
+	boolean podeVoar;
+	
+}

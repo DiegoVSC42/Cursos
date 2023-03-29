@@ -1,0 +1,38 @@
+package MundoAnimal;
+
+public class MostraAnimais {
+	public static void mostra_bicho(Animal bicho) {
+		DefineEspecie.especieAnimal(bicho);
+		
+		System.out.println("Especie do animal: " + bicho.especie);
+		System.out.println("Cor do animal: " + bicho.cor);
+		System.out.println("Nome do animal: " + bicho.nome);
+		System.out.println("Peso do animal: " + bicho.peso + "Kg");
+		System.out.println("Raça do animal: " + bicho.raca);
+		System.out.println("Tamanho do animal: " + bicho.tamanho + "m");
+		
+		if(bicho instanceof Cachorro) {
+			
+			System.out.println("Espécie do animal: " + bicho.especie);
+			
+			Cachorro dog = new Cachorro();
+			dog = (Cachorro) bicho;
+			System.out.println("Quantidade de patas: " + dog.qtdPatas);
+			System.out.println("Tamanho da cauda : " + dog.tamanhoCauda + "m");
+		
+		}else {
+			
+			System.out.println("Espécie do animal: " + bicho.especie);
+			
+			Passaro bird = new Passaro();
+			bird = (Passaro) bicho;
+			if(bird.podeVoar)
+				System.out.println("Este animal pode voar");
+			else {
+				System.out.println("Este animal nao pode voar");
+			}
+			System.out.println("Tamanho do bico: " + bird.tamanhoBico + "m");
+			System.out.println("Quantidade de pés: " + bird.qtdPés);
+		}
+	}
+}

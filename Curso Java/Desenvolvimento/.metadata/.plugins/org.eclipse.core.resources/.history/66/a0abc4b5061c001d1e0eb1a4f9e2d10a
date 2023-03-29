@@ -1,0 +1,22 @@
+package MundoAnimal;
+
+private class Cachorro extends Animal {
+	
+	int qtdPatas;
+	double tamanhoCauda;
+	
+	public int getQtdPatas() {
+		return qtdPatas;
+	}
+	public void setQtdPatas(int qtdPatas) {
+		this.qtdPatas = qtdPatas;
+	}
+	public double getTamanhoCauda() {
+		return tamanhoCauda;
+	}
+	public void setTamanhoCauda(double tamanhoCauda) {
+		this.tamanhoCauda = tamanhoCauda;
+	}
+	
+	
+}

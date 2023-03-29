@@ -1,0 +1,41 @@
+package Calculadora;
+
+import java.util.Scanner;
+
+public class Calculo {
+	public static void main(String[] args) {
+		
+		Operador sinal = new Operador();
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o primeiro numero: ");
+		double numero1 = sc.nextDouble();
+		System.out.println("Digite a operacao desejada: ");
+		String operador = sc.next();
+		System.out.println("Digite o segundo numero: ");
+		double numero2 = sc.nextDouble();
+		
+		switch(operador) {
+		case "+":
+			double result = sinal.adicao(numero1, numero2);
+			break;
+		case "-":
+			double result = sinal.subtracao(numero1, numero2);
+			break;
+		case "*":
+			double result = sinal.multiplicacao(numero1, numero2);
+			break;
+		case "/":
+			double result = sinal.divisao(numero1, numero2);
+			break;
+		default:
+			System.out.println("Sinal invalido");
+			break;
+		}
+		
+		System.out.println("Resultado: "+ result);
+		
+		
+	}
+}
