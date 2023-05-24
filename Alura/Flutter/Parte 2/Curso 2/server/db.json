@@ -1,0 +1,37 @@
+{
+  "learnhttp": {
+    "content": "Olá mundo!"
+  },
+  "journals": [
+    {
+      "id": "33a76610-fa5b-11ed-a238-e978bbcbc35a",
+      "content": "Testando ",
+      "created_at": "2023-05-16 17:47:13.154737",
+      "updated_at": "2023-05-16 17:47:13.154737"
+    },
+    {
+      "id": "1d13c1d0-fa5d-11ed-9701-6bbb07622f4c",
+      "content": "Hoje foi segunda feira",
+      "created_at": "2023-05-15 18:02:05.688079",
+      "updated_at": "2023-05-15 18:02:05.688079"
+    },
+    {
+      "id": "043961e0-fa5f-11ed-9d3b-71db642724c4",
+      "content": "Foi um belo domingo de sol",
+      "created_at": "2023-05-22 18:13:02.490220",
+      "updated_at": "2023-05-22 18:13:02.490220"
+    },
+    {
+      "id": "8c4ac1a0-fa5f-11ed-a586-6b6410e47099",
+      "content": "Sextou rapaziada",
+      "created_at": "2023-05-19 18:19:34.322177",
+      "updated_at": "2023-05-19 18:19:34.322177"
+    },
+    {
+      "id": "c284c940-fa60-11ed-861f-cbc3baea8576",
+      "content": "VRAU",
+      "created_at": "2023-05-15 18:28:18.977020",
+      "updated_at": "2023-05-15 18:28:18.977020"
+    }
+  ]
+}
