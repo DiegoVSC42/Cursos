@@ -1,0 +1,4 @@
+#Mon May 29 15:08:53 BRT 2023
+base.0=C\:\\Users\\Diego PC\\OneDrive\\Documentos\\GIT\\Cursos\\Alura\\Flutter\\Parte 2\\Curso 3\\flutter_webapi_first_course-main\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

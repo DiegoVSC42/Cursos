@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "email": "diegogatex2001@gmail.com",
+      "password": "$2a$10$2mhynbGPeSAQfgMCKvVbkuG2shl4wK.796xh17bHJZrVdT.pnnaUC",
+      "id": 1
+    },
+    {
+      "email": "diegogatex2015@gmail.com",
+      "password": "$2a$10$Dn.mPWJ8e4248DzMPO9XTe3dseBdRrR1bXBvmQ/nj41HC009Mhik6",
+      "id": 2
+    },
+    {
+      "email": "diegogatex2022@gmail.com",
+      "password": "$2a$10$uFBBiI8POGHL.EcGulk8duxBNVWs1kzN4TjFxl8AZIdKu/WQQCglC",
+      "id": 3
+    },
+    {
+      "email": "a@a",
+      "password": "$2a$10$vbpvccHbgQU8u4fzufSEk.z1GU5oKrGLheuwy/EXLsya66zX6gETC",
+      "id": 4
+    }
+  ],
+  "learnhttp": {
+    "content": "Olá mundo!"
+  },
+  "journals": [
+    {
+      "id": "33b666e0-fb2f-11ed-a14c-bd5b64a750dc",
+      "content": "LOH",
+      "created_at": "2023-05-15 19:05:44.036323",
+      "updated_at": "2023-05-15 19:05:44.036323"
+    },
+    {
+      "id": "3d2282e0-fb2f-11ed-a14c-bd5b64a750dc",
+      "content": "44444",
+      "created_at": "2023-05-15 19:05:44.036323",
+      "updated_at": "2023-05-15 19:05:44.036323"
+    },
+    {
+      "id": "429e78f0-fb2f-11ed-a14c-bd5b64a750dc",
+      "content": "2",
+      "created_at": "2023-05-18 19:05:44.036323",
+      "updated_at": "2023-05-18 19:05:44.036323"
+    },
+    {
+      "id": "4d397800-fb2f-11ed-a14c-bd5b64a750dc",
+      "content": "6525",
+      "created_at": "2023-05-21 19:05:44.036323",
+      "updated_at": "2023-05-21 19:05:44.036323"
+    },
+    {
+      "id": "5430ea80-fb2f-11ed-a14c-bd5b64a750dc",
+      "content": "15415616541",
+      "created_at": "2023-05-15 19:05:44.036323",
+      "updated_at": "2023-05-15 19:05:44.036323"
+    }
+  ]
+}
