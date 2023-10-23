@@ -1,0 +1,16 @@
+#Config
+#Mon Oct 23 17:43:56 BRT 2023
+cfg.ancorador=true
+cfg.autosalvarintervalo=5
+cfg.mostrargrade=true
+cfg.apagartextoaoeditar=true
+cfg.location.y=1080
+cfg.location.x=-320
+cfg.mostrardimensoesaomover=true
+cfg.gradelargura=23
+cfg.mostrartooltips=true
+cfg.tipodefault=0
+cfg.mostrarids=false
+cfg.recentes=C\:\\Users\\Diego\\OneDrive\\Documentos\\GIT\\Cursos\\Alura\\Modelagem de dados\\Parte 1\\Curso 1\\Algebra Relacional\\brModelo\\Conceitual_1.brM3
+cfg.location.salvar=true
+cfg.propaguedeletetolines=true
