@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272753367897",
+    "project_id": "flutter-firebase-alura-e980f",
+    "storage_bucket": "flutter-firebase-alura-e980f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272753367897:android:c3094a405f36039b634a48",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGJakoG3Gtwzz02Mi-Hb34BdIufNFi6d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
