@@ -10,7 +10,7 @@ O repositório está organizado por diretórios, cada um correspondendo a um cur
 - **Projetos**: Projetos finais ou atividades maiores realizadas no curso.
 - **Certificados**: Links e/ou imagens de certificados ao final de cada curso 
 
-### Formações Concluídas
+## Formações Concluídas
 
 1. **Formação Python para Data Science**  
    - **Plataforma**: Alura  
