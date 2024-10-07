@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --cor-primaria: #F55B64;
+    --cor-secundaria: #C2373F;
+    --cor-roxa: #9353ff;
+    --cor-fonte-placeholder: #6c757d;
+    --neutro: #F9F9F9;
+    --preto: #131730;
+    --degrade-azul: linear-gradient(180deg, #000000 0%, #9353ff 100%);
+}
+
+body {
+    background: var(--degrade-azul);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: var(--neutro);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 729px;
+    padding: 40px;
+
+    align-items: center;
+
+    border: #000000 solid 2px;
+}
+h2{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+input{
+    width: 50%;
+    height: 2rem;
+}
+input::placeholder{
+    padding: 7px 15px;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    color: var(--cor-fonte-placeholder);
+}
+
+button{
+    background-color: var(--cor-roxa);
+    color: var(--neutro);
+    padding: 9px 18px;
+    border: none;
+}
+
+
+/* Esconde o input checkbox real */
+.input-checkbox {
+    display: none;
+}
+
+/* Estilos do checkbox customizado */
+.checkbox-customizado {
+    width: 20px;
+    height: 20px;
+    background-color: white; 
+    border: 1px solid black; 
+    cursor: pointer; 
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Quando o checkbox estiver marcado, muda o estilo do customizado */
+.input-checkbox:checked + .checkbox-customizado {
+    background-color: #9353FF; /* Cor do checkbox marcado */
+}
+
+/* Adiciona a marca de seleção dentro do checkbox customizado quando marcado */
+.input-checkbox:checked + .checkbox-customizado::after {
+    content: ""; 
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 5px;
+    height: 14px;
+    
+    border-top: 2px solid var(--neutro); /* Cor da marca de seleção */
+    border-left: 2px solid var(--neutro); /* Cor da marca de seleção */
+    transform: rotate(-140deg);
+}
+
+.item-list {
+    width:50%;
+    display: flex;            /* Habilita o flexbox */
+    justify-content: space-between; /* Deixa o conteúdo nas extremidades (um à esquerda e outro à direita) */
+    align-items: center;       /* Alinha verticalmente os itens */
+    padding: 0;               /* Remove o padding padrão da lista */
+}
+
+.buttons {
+    display: flex;            /* Exibe os botões lado a lado */
+    gap: 10px;                /* Adiciona um espaço entre os botões */
+}
