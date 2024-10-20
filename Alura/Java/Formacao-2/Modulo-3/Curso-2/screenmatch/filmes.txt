@@ -1,0 +1,1 @@
+nome='The Lion King', anoDeLancamento=1994,duração=88
